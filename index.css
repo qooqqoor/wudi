@@ -23,11 +23,7 @@ body{
     }
     .img{
     	display:none;
-    }
-    .img1{
-    	display:;    	
-    }
-    
+    } 
 }
 @media screen and (min-width: 577px) {
     
