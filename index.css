@@ -1,0 +1,39 @@
+body{
+	font-family: 微軟正黑體;
+	background-image: url(../img/cake.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: center center;
+    background-size: cover;
+}
+
+.col-lg-5{
+	background-color: rgba(53,73,73,0.42);
+}
+.text{
+	height: 100vh;
+}
+@media screen and (max-width: 576px) {
+    
+    .col-lg-5{
+	background-color: rgba(255,73,73,0.42);
+    } 
+    video{
+    	display:none;
+    }
+    .img{
+    	display:none;
+    }
+    .img1{
+    	display:;    	
+    }
+    
+}
+@media screen and (min-width: 577px) {
+    
+    
+    .img1{
+    	display:none;
+    }
+   
+}
