@@ -16,7 +16,8 @@ body{
         background-image: url(../img/cake.jpg);
     }
     video{
+    	height: 0px;
+    	width: 0px;
     	
-    	src:"#";
     }
 }
