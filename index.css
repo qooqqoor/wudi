@@ -1,3 +1,23 @@
+@media screen and (min-width: 577px) {    
+    .img1{
+    	display:none;
+    }
+   
+}
+@media screen and (max-width: 576px) {
+    
+    .col-lg-5{
+	background-color: rgba(255,73,73,0.42);
+    } 
+    video{
+    	display:none;
+    }
+    .img{
+    	display:none;
+    } 
+}
+
+
 body{
 	font-family: 微軟正黑體;
 	background-image: url(../img/cake.jpg);
@@ -12,24 +32,4 @@ body{
 }
 .text{
 	height: 100vh;
-}
-@media screen and (max-width: 576px) {
-    
-    .col-lg-5{
-	background-color: rgba(255,73,73,0.42);
-    } 
-    video{
-    	display:none;
-    }
-    .img{
-    	display:none;
-    } 
-}
-@media screen and (min-width: 577px) {
-    
-    
-    .img1{
-    	display:none;
-    }
-   
 }
