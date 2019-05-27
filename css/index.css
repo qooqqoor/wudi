@@ -1,35 +1,149 @@
+
+
 body{
 	font-family: 微軟正黑體;
-	background-image: url(../img/cake.jpg);
+	
     background-repeat: no-repeat;
     background-attachment: fixed;
 	background-position: center center;
     background-size: cover;
+    overflow-x:hidden;/*滾動條*/
+    overflow-y:auto;
+
 }
 
-.col-lg-5{
+.img{
 	background-color: rgba(53,73,73,0.42);
+
 }
+.img1{
+    background-color: rgba(255,73,73,0.42);
+    } 
+
 .text{
 	height: 100vh;
 }
-@media screen and (max-width: 576px) {
-    
-    .col-lg-5{
-	background-color: rgba(255,73,73,0.42);
+
+@media screen and (min-width: 992px) {  /*螢幕修正*/
+    body{
+    	background-color: #000;
+    }  
+    .img1{
+    	display:none;
+    }
+    .add{
+    	display:none;
+    }
+    .imgg1{
+    	display:none;
+    }
+    .imgg{
+    	background-color: rgba(53,73,73,0.42);
+    }
+    }
+@media only screen and (min-width:769px) and (max-width: 991px) {
+	body{
+    	background-color: #000;
     } 
+
+    .img1{
+    	display:none;
+    }
+    .add{
+    	display:none;
+    }
+    .imgg{
+    	display:none;
+    }
+    .imgg1{
+    	background-color: rgba(53,73,73,0.42);
+    }
+    .ghj p{
+    	font-size: 25px;
+    }
+
+  
+    
+    /*.add h4{
+    	color: #000;
+	    border-style: solid;
+	    border-color: #696969;
+	    background-color: rgba(53,73,73,0.42);
+	    margin:5px 10px 0px 10px;
+	    padding: 10px;	   
+	    
+    }/* 下方瀏覽列*/
+    /*.add a{
+    	text-decoration:none;
+    }
+
+    .add h4:hover { /* 滑鼠滑入按鈕變色*/
+    /*    color: #D3D3D3;
+	    border-color: #FFF;
+	    background-color: rgba(139,69,19,0.82);
+    }*/
+    }
+@media screen and (max-width: 768px) {
+    body{
+    	background-image: url(../img/cake.jpg);
+    }
+
     video{
     	display:none;
     }
     .img{
     	display:none;
-    } 
-}
-@media screen and (min-width: 577px) {
-    
-    
-    .img1{
-    	display:none;
     }
-   
-}
+    .imgg{
+    	display:none;
+
+    }
+    .imgg1{
+    	background-color: rgba(255,73,73,0.42);
+    }
+    .ghj p{
+    	font-size: 15px;
+    }
+
+
+
+    .add h4{
+    	color: #000;
+	    border-style: solid;
+	    border-color: #B63D32;
+	    background-color: rgba(255,73,73,0.42);
+	    margin:5px 10px 0px 10px;
+	    padding: 10px;
+	   	    
+    }/* 下方瀏覽列*/
+    .add a{
+    	text-decoration:none;
+    }
+    .add h4:hover { /* 滑鼠滑入按鈕變色*/
+        color: #FFF;
+	    border-color: #FFF;
+	    background-color: rgba(73,73,73,0.82);
+    }
+    }
+
+
+
+    img.button {
+    opacity: 0.0;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+
+    }
+    img.button:hover {
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+    }
+
+    .ghj p{
+    	position: absolute;
+    }
+    
+
