@@ -7,8 +7,8 @@ body{
     background-attachment: fixed;
 	background-position: center center;
     background-size: cover;
-    overflow-x:hidden;/*滾動條*/
-    overflow-y:hidden;
+    overflow:hidden;/*滾動條*/
+    
 
 }
 
