@@ -131,7 +131,7 @@ body{
 
 
 
-    img.button {
+   /* img.button {
     opacity: 0.0;
     transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
@@ -144,6 +144,6 @@ body{
     -moz-transition: opacity .55s ease-in-out;
     -webkit-transition: opacity .55s ease-in-out;
     }
-
+*/
 
 
