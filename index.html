@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -7,8 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="css/stylle.css" media="screen" type="text/css" />
+       <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/index.css">
+   
+    
 
     <title>屋頂甜點屋－練習模式</title>
      
@@ -56,7 +60,7 @@
 
     <div  class=" row no-gutters mt-5   align-items-center text">
    
-          <div class="col-lg text-center text-white p-2 img justify-content-left ">
+          <div class="col-lg-5 text-center text-white p-2 img justify-content-left ">
             <h1>手工巧克碎片餅乾</h1>
             <p>堅持使用頂級原料，不含任何防腐劑。<br>讓您吃得安心，看的到用心。</p>
           </div>
@@ -65,13 +69,16 @@
             <h1>手工草莓慕斯奶昔</h1>
             <p>堅持使用頂級原料，不含任何防腐劑。<br>讓您吃得安心，看的到用心。</p>
           </div><!--屏幕更換 內文更換-->
-          <div class="imgg col-lg">
-            <table class=" justify-content-right" style="border:3px #cccccc solid; " cellpadding="10" border='1' >
-            <tr><td><a href="datail.html"><img src="img/cake01.jpg" class="img-fluid button" alt="鄉村檸檬蛋糕"></a></td>
-            <td><a href="datail1.html"><img src="img/cake02.jpg" class="img-fluid button" alt="精緻手工巧克蛋糕"></a></td></tr>
-            <tr><td><a href="datail2.html"><img src="img/cake03.jpg" class="img-fluid button" alt="限量莓果乳酪蛋糕"></a></td>
-            <td><a href="datail3.html"><img src="img/cake04.jpg" class="img-fluid button" alt="經典薄荷藍莓蛋糕"></a></td></tr>
-            </table>
+          <div class="imgg col-lg-3"style="right: -20%;">
+          <div id="contentContainer" class="trans3d"> 
+             <section id="carouselContainer" class="trans3d">
+             <figure id="item1" class="carouselItem trans3d"><div class="carouselItemInner trans3d"><a href="datail.html"><img src="img/cake01.jpg"class="img-fluid" alt=""style="width: 110%;"></a></div></figure>
+             <figure id="item2" class="carouselItem trans3d"><div class="carouselItemInner trans3d"><a href="datail1.html"><img src="img/cake02.jpg"class="img-fluid" alt=""></a></div></figure>
+              <figure id="item3" class="carouselItem trans3d"><div class="carouselItemInner trans3d"><a href="datail2.html"><img src="img/cake03.jpg"class="img-fluid" alt=""></a></div></figure>
+             <figure id="item4" class="carouselItem trans3d"><div class="carouselItemInner trans3d"><a href="datail3.html"><img src="img/cake04.jpg"class="img-fluid" alt=""></a></div></figure>
+            </section>
+          </div>
+
           </div>
             <div class="imgg1 col-lg">
             <table class=" justify-content-right ghj" style="border:3px #cccccc solid; background-color:rgba(0,0,0,0.22); " cellpadding="10" border='1' >
@@ -120,5 +127,9 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/bootstrap.js"></script>
+      <script src='js/libs.min.js'></script>
+
+  <script src="js/index.js"></script>
+
   </body>
 </html>

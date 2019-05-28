@@ -8,7 +8,7 @@ body{
 	background-position: center center;
     background-size: cover;
     overflow-x:hidden;/*滾動條*/
-    overflow-y:auto;
+    overflow-y:hidden;
 
 }
 
@@ -57,6 +57,9 @@ body{
     }
     .imgg1{
     	background-color: rgba(53,73,73,0.42);
+    	width: 70%;
+    	margin-left:auto; 
+        margin-right:auto;
     }
     .ghj p{
     	font-size: 25px;
@@ -100,9 +103,9 @@ body{
     }
     .imgg1{
     	background-color: rgba(255,73,73,0.42);
-    }
-    .ghj p{
-    	font-size: 15px;
+    	width: 85%;
+    	margin-left:auto; 
+        margin-right:auto;
     }
 
 
@@ -142,8 +145,5 @@ body{
     -webkit-transition: opacity .55s ease-in-out;
     }
 
-    .ghj p{
-    	position: absolute;
-    }
-    
+
 
